@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Biblioteca.Models.Emprestimo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-default" asp-action="Create">Novo Emprestimo</a>
+</p>
+<br />
+<form asp-action="Exportar" asp-controller="Emprestimos">
+    <div class="form-group">
+        <label>Exportar dados de emprestimos como </label>
+        <select asp-items="ViewBag.FileType" name="fileType"></select>
+        <input type="submit" value="Exportar Arquivo" class="btn btn-primary" />
+    </div>
+</form>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Livro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Emprestado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrevisaoDevolucao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Devolucao)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Livro.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Emprestado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrevisaoDevolucao)
+            </td>
+            <td>
+                @Html.DisplayName(item.Devolucao == null ? "Não devolvido" : string.Format("{0:dd/MM/yyyy}", item.Devolucao))
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                <a asp-action="Devolver" asp-route-id="@item.Id">Devolver</a> |
+                <a asp-action="Renovar" asp-route-id="@item.Id">Renovar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

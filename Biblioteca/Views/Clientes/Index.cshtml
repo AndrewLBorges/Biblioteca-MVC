@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Biblioteca.Models.Cliente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-default" asp-action="Create">Registrar Novo Cliente</a>
+</p>
+<br>
+<form asp-action="Index" asp-controller="Clientes">
+    <select id="opcao" name="mostrarAtivos">
+        <option value="">Selecione a visualização</option>
+        <option value="1" selected="selected">Mostrar Apenas Ativos</option>
+        <option value="2">Mostrar Todos</option>
+    </select>
+
+    <input type="submit" value="Selecionar" class="btn btn-primary" />
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nascimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cadastro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ativo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (ViewData["mostrarAtivos"] != null && (string)ViewData["mostrarAtivos"] == "1")
+        {
+            foreach (var item in Model)
+            {
+                if (item.Ativo)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nascimento)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Cadastro)
+                        </td>
+                        <td>
+                            @Html.DisplayName(item.Ativo ? "Sim" : "Não")
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            }
+        }
+        else
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nascimento)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cadastro)
+                    </td>
+                    <td>
+                        @Html.DisplayName(item.Ativo ? "Sim" : "Não")
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>

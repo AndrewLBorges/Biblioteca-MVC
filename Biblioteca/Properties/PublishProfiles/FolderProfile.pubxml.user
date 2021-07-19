@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2021-06-29T20:10:29.3072455Z;False|2021-06-29T17:10:22.3161597-03:00;True|2021-06-29T16:52:53.8038222-03:00;False|2021-06-29T16:52:23.4483910-03:00;True|2021-06-29T16:30:42.6808189-03:00;True|2021-06-28T09:20:01.3458405-03:00;</History>
+  </PropertyGroup>
+</Project>

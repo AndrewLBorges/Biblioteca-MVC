@@ -1,0 +1,170 @@
+2021-06-20 15:21:32.703 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 15:21:32.754 -03:00 [INF] Hosting environment: Development
+2021-06-20 15:21:32.756 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 15:28:49.594 -03:00 [FTL] Application startup exception
+System.InvalidOperationException: Action 'Biblioteca.Controllers.Api.EmprestimosApiController.ExportarEmprestimos (Biblioteca)' does not have an attribute route. Action methods on controllers annotated with ApiControllerAttribute must be attribute routed.
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApiBehaviorApplicationModelProvider.EnsureActionIsAttributeRouted(ActionModel actionModel)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory.CreateApplicationModel(IEnumerable`1 controllerTypes)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.GetChangeToken()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.<>c__DisplayClass11_0.<Subscribe>b__0()
+   at Microsoft.Extensions.Primitives.ChangeToken.OnChange(Func`1 changeTokenProducer, Action changeTokenConsumer)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Subscribe()
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource..ctor(ControllerActionEndpointDataSourceIdProvider dataSourceIdProvider, IActionDescriptorCollectionProvider actions, ActionEndpointFactory endpointFactory, OrderedEndpointsSequenceProvider orderSequence)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.GetOrCreateDataSource(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllerRoute(IEndpointRouteBuilder endpoints, String name, String pattern, Object defaults, Object constraints, Object dataTokens)
+   at Biblioteca.Startup.<>c.<Configure>b__5_0(IEndpointRouteBuilder endpoints) in C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\Startup.cs:line 59
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at Biblioteca.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\Startup.cs:line 57
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass15_0.<UseStartup>b__1(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-06-20 15:29:55.460 -03:00 [FTL] Application startup exception
+System.InvalidOperationException: Action 'Biblioteca.Controllers.Api.EmprestimosApiController.ExportarEmprestimos (Biblioteca)' does not have an attribute route. Action methods on controllers annotated with ApiControllerAttribute must be attribute routed.
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApiBehaviorApplicationModelProvider.EnsureActionIsAttributeRouted(ActionModel actionModel)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory.CreateApplicationModel(IEnumerable`1 controllerTypes)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.GetChangeToken()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.<>c__DisplayClass11_0.<Subscribe>b__0()
+   at Microsoft.Extensions.Primitives.ChangeToken.OnChange(Func`1 changeTokenProducer, Action changeTokenConsumer)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Subscribe()
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource..ctor(ControllerActionEndpointDataSourceIdProvider dataSourceIdProvider, IActionDescriptorCollectionProvider actions, ActionEndpointFactory endpointFactory, OrderedEndpointsSequenceProvider orderSequence)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.GetOrCreateDataSource(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllerRoute(IEndpointRouteBuilder endpoints, String name, String pattern, Object defaults, Object constraints, Object dataTokens)
+   at Biblioteca.Startup.<>c.<Configure>b__5_0(IEndpointRouteBuilder endpoints) in C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\Startup.cs:line 59
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at Biblioteca.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\Startup.cs:line 57
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass15_0.<UseStartup>b__1(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-06-20 15:55:48.252 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 15:55:48.287 -03:00 [INF] Hosting environment: Development
+2021-06-20 15:55:48.289 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 16:05:18.458 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 16:05:18.518 -03:00 [INF] Hosting environment: Development
+2021-06-20 16:05:18.520 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 17:22:46.177 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 17:22:46.209 -03:00 [INF] Hosting environment: Development
+2021-06-20 17:22:46.210 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 17:23:42.386 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 17:23:42.423 -03:00 [INF] Hosting environment: Development
+2021-06-20 17:23:42.425 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 17:25:33.349 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 17:25:33.388 -03:00 [INF] Hosting environment: Development
+2021-06-20 17:25:33.389 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 17:25:59.964 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 17:26:00.008 -03:00 [INF] Hosting environment: Development
+2021-06-20 17:26:00.013 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 17:57:26.663 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 17:57:26.694 -03:00 [INF] Hosting environment: Development
+2021-06-20 17:57:26.696 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 17:58:37.603 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 17:58:37.676 -03:00 [INF] Hosting environment: Development
+2021-06-20 17:58:37.677 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 18:43:15.114 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 18:43:15.166 -03:00 [INF] Hosting environment: Development
+2021-06-20 18:43:15.168 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 18:45:18.377 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 18:45:18.413 -03:00 [INF] Hosting environment: Development
+2021-06-20 18:45:18.415 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 18:48:14.301 -03:00 [WRN] No output formatter was found for content types '["application/pdf"]' to write the response.
+2021-06-20 19:13:45.190 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 19:13:45.254 -03:00 [INF] Hosting environment: Development
+2021-06-20 19:13:45.261 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 19:14:16.278 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 19:14:16.352 -03:00 [INF] Hosting environment: Development
+2021-06-20 19:14:16.353 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 19:17:10.323 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 19:17:10.362 -03:00 [INF] Hosting environment: Development
+2021-06-20 19:17:10.364 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 19:26:21.594 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 19:26:21.668 -03:00 [INF] Hosting environment: Development
+2021-06-20 19:26:21.670 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 19:31:28.143 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 19:31:28.193 -03:00 [INF] Hosting environment: Development
+2021-06-20 19:31:28.197 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 19:34:51.173 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 19:34:51.237 -03:00 [INF] Hosting environment: Development
+2021-06-20 19:34:51.241 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 19:35:02.000 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The expression 'e.Livro.Nome' is invalid inside an 'Include' operation, since it does not represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, use casting ('t => ((Derived)t).MyProperty') or the 'as' operator ('t => (t as Derived).MyProperty'). Collection navigation access can be filtered by composing Where, OrderBy(Descending), ThenBy(Descending), Skip or Take operations. For more information on including related data, see http://go.microsoft.com/fwlink/?LinkID=746393.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.PopulateIncludeTree(IncludeTreeNode includeTreeNode, Expression expression, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.IncludableQueryable`2.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Biblioteca.Controllers.EmprestimosController.Exportar(FileType fileType) in C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\Controllers\EmprestimosController.cs:line 345
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-20 20:10:38.177 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 20:10:38.321 -03:00 [INF] Hosting environment: Development
+2021-06-20 20:10:38.323 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 20:11:28.023 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 20:11:28.076 -03:00 [INF] Hosting environment: Development
+2021-06-20 20:11:28.078 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 20:14:58.243 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 20:14:58.286 -03:00 [INF] Hosting environment: Development
+2021-06-20 20:14:58.287 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 20:17:26.769 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 20:17:26.810 -03:00 [INF] Hosting environment: Development
+2021-06-20 20:17:26.812 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 20:17:55.814 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 20:17:55.874 -03:00 [INF] Hosting environment: Development
+2021-06-20 20:17:55.875 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 20:18:42.439 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 20:18:42.524 -03:00 [INF] Hosting environment: Development
+2021-06-20 20:18:42.525 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-20 20:19:15.720 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-20 20:19:15.773 -03:00 [INF] Hosting environment: Development
+2021-06-20 20:19:15.776 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca

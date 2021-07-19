@@ -1,0 +1,99 @@
+2021-06-15 09:29:55.168 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 09:29:55.202 -03:00 [INF] Hosting environment: Development
+2021-06-15 09:29:55.206 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 09:32:29.349 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 09:32:29.384 -03:00 [INF] Hosting environment: Development
+2021-06-15 09:32:29.389 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 09:32:34.985 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-15 09:32:37.951 -03:00 [VRB] Saiu do metodo Index(get) de Livros retornando a View com a seguinte lista de Livros retirada do banco de dados
+2021-06-15 09:40:33.626 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 09:40:33.678 -03:00 [INF] Hosting environment: Development
+2021-06-15 09:40:33.680 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 09:40:34.644 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-15 09:40:37.944 -03:00 [VRB] Saiu do metodo Index(get) de Livros retornando a View com a seguinte lista de Livros retirada do banco de dados
+2021-06-15 09:53:14.465 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 09:53:14.535 -03:00 [INF] Hosting environment: Development
+2021-06-15 09:53:14.539 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 09:53:15.411 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-15 09:53:19.474 -03:00 [VRB] Saiu do metodo Index(get) de Livros retornando a View com a seguinte lista de Livros retirada do banco de dados
+2021-06-15 09:57:04.066 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 09:57:04.159 -03:00 [INF] Hosting environment: Development
+2021-06-15 09:57:04.161 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 09:57:05.402 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-15 09:57:09.520 -03:00 [VRB] Saiu do metodo Index(get) de Livros retornando a View com a seguinte lista de Livros retirada do banco de dados
+2021-06-15 09:58:14.667 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 09:58:14.730 -03:00 [INF] Hosting environment: Development
+2021-06-15 09:58:14.732 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 09:58:15.599 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-15 09:58:19.377 -03:00 [VRB] Saiu do metodo Index(get) de Livros retornando a View com a seguinte lista de Livros retirada do banco de dados
+2021-06-15 18:51:36.188 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 18:51:36.226 -03:00 [INF] Hosting environment: Development
+2021-06-15 18:51:36.230 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 18:51:40.606 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-15 18:51:46.044 -03:00 [VRB] Saiu do metodo Index(get) de Livros retornando a View com a seguinte lista de Livros retirada do banco de dados
+2021-06-15 18:52:20.712 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 18:52:20.768 -03:00 [INF] Hosting environment: Development
+2021-06-15 18:52:20.769 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 18:52:21.659 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-15 18:52:22.865 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-15 18:52:33.077 -03:00 [VRB] Entrou no metodo Details(get) de Livros
+2021-06-15 18:52:33.330 -03:00 [VRB] Saiu do metodo Details(get) com sucesso retornando o modelo {"Id":1,"Nome":"blablabla","Categoria":{"Id":1,"Nome":"Terror","Ativo":true,"$type":"Categoria"},"CategoriaId":1,"Autor":"alguem","Ativo":true,"$type":"Livro"}.
+2021-06-15 18:55:16.387 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 18:55:16.426 -03:00 [INF] Hosting environment: Development
+2021-06-15 18:55:16.428 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 18:55:17.263 -03:00 [VRB] Entrou no metodo Details(get) de Livros
+2021-06-15 18:55:20.911 -03:00 [VRB] Saiu do metodo Details(get) com sucesso retornando o modelo {"Id":1,"Nome":"blablabla","Categoria":{"Id":1,"Nome":"Terror","Ativo":true,"$type":"Categoria"},"CategoriaId":1,"Autor":"alguem","Ativo":true,"$type":"Livro"}.
+2021-06-15 18:57:32.471 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 18:57:32.512 -03:00 [INF] Hosting environment: Development
+2021-06-15 18:57:32.515 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 18:57:33.415 -03:00 [VRB] Entrou no metodo Details(get) de Livros
+2021-06-15 18:57:37.287 -03:00 [VRB] Saiu do metodo Details(get) com sucesso retornando o modelo {"Id":1,"Nome":"blablabla","Categoria":{"Id":1,"Nome":"Terror","Ativo":true,"$type":"Categoria"},"CategoriaId":1,"Autor":"alguem","Ativo":true,"$type":"Livro"}.
+2021-06-15 19:00:15.471 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 19:00:15.519 -03:00 [INF] Hosting environment: Development
+2021-06-15 19:00:15.520 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 19:00:16.632 -03:00 [VRB] Entrou no metodo Details(get) de Livros
+2021-06-15 19:00:20.517 -03:00 [VRB] Saiu do metodo Details(get) com sucesso retornando o modelo {"Id":1,"Nome":"blablabla","Categoria":{"Id":1,"Nome":"Terror","Ativo":true,"$type":"Categoria"},"CategoriaId":1,"Autor":"alguem","Ativo":true,"$type":"Livro"}.
+2021-06-15 19:01:53.716 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 19:01:53.764 -03:00 [INF] Hosting environment: Development
+2021-06-15 19:01:53.768 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 19:01:54.549 -03:00 [VRB] Entrou no metodo Details(get) de Livros
+2021-06-15 19:01:58.494 -03:00 [VRB] Saiu do metodo Details(get) com sucesso retornando o modelo {"Id":1,"Nome":"blablabla","Categoria":{"Id":1,"Nome":"Terror","Ativo":true,"$type":"Categoria"},"CategoriaId":1,"Autor":"alguem","Ativo":true,"$type":"Livro"}.
+2021-06-15 19:03:31.699 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 19:03:31.721 -03:00 [INF] Hosting environment: Development
+2021-06-15 19:03:31.723 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 19:03:32.567 -03:00 [VRB] Entrou no metodo Details(get) de Livros
+2021-06-15 19:03:35.841 -03:00 [VRB] Saiu do metodo Details(get) com sucesso retornando o modelo {"Id":1,"Nome":"blablabla","Categoria":{"Id":1,"Nome":"Terror","Ativo":true,"$type":"Categoria"},"CategoriaId":1,"Autor":"alguem","Ativo":true,"$type":"Livro"}.
+2021-06-15 19:25:28.330 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 19:25:28.419 -03:00 [INF] Hosting environment: Development
+2021-06-15 19:25:28.424 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 19:25:29.758 -03:00 [VRB] Entrou no metodo Details(get) de Livros
+2021-06-15 19:25:35.364 -03:00 [VRB] Saiu do metodo Details(get) com sucesso retornando o modelo {"Id":1,"Nome":"blablabla","Categoria":{"Id":1,"Nome":"Terror","Ativo":true,"$type":"Categoria"},"CategoriaId":1,"Autor":"alguem","Ativo":true,"$type":"Livro"}.
+2021-06-15 19:46:56.408 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 19:46:56.476 -03:00 [INF] Hosting environment: Development
+2021-06-15 19:46:56.478 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 19:47:05.876 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-15 19:47:07.119 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-15 19:47:13.054 -03:00 [VRB] Entrou no metodo Edit(get) de Livros
+2021-06-15 19:47:13.346 -03:00 [VRB] Saiu do metodo Edit(get) com sucesso retornando o modelo {"Id":5,"Nome":"a volta do blablabla","Categoria":null,"CategoriaId":2,"Autor":"Ele","Ativo":true,"$type":"Livro"}.
+2021-06-15 19:47:19.549 -03:00 [VRB] Entrou no metodo Edit(post) de Livros
+2021-06-15 19:47:19.737 -03:00 [VRB] Entrou no metodo interno UpdateCategoriaAntigaPorIdLivro de Livros
+2021-06-15 19:47:20.128 -03:00 [VRB] Saiu do metodo UpdateCategoriaAntigaPorIdLivro de Livros
+2021-06-15 19:47:20.131 -03:00 [VRB] Entrou no metodo interno GetLivroOriginalPorId de Livros
+2021-06-15 19:47:20.338 -03:00 [VRB] Saiu do metodo GetLivroOriginalPorId de Livros
+2021-06-15 19:47:21.962 -03:00 [VRB] Saiu do metodo Edit(post) concluindo a edicao do modelo Biblioteca.Models.Livro e atualizando a base.
+2021-06-15 19:47:21.970 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-15 19:47:21.970 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-15 19:49:10.038 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 19:49:10.099 -03:00 [INF] Hosting environment: Development
+2021-06-15 19:49:10.101 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 19:49:11.269 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-15 19:49:12.744 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-15 19:51:42.516 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 19:51:42.604 -03:00 [INF] Hosting environment: Development
+2021-06-15 19:51:42.607 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 20:31:56.191 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 20:31:56.234 -03:00 [INF] Hosting environment: Development
+2021-06-15 20:31:56.235 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-15 20:31:57.090 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-15 20:31:57.091 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-15 20:31:57.895 -03:00 [VRB] Saiu do metodo Index(get) de Livros

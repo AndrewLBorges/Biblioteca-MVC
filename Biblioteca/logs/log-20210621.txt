@@ -1,0 +1,81 @@
+2021-06-21 10:41:34.453 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 10:41:34.496 -03:00 [INF] Hosting environment: Development
+2021-06-21 10:41:34.498 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 10:45:22.534 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 10:45:22.602 -03:00 [INF] Hosting environment: Development
+2021-06-21 10:45:22.603 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 10:53:15.363 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 10:53:15.412 -03:00 [INF] Hosting environment: Development
+2021-06-21 10:53:15.414 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 10:53:52.604 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 10:53:52.664 -03:00 [INF] Hosting environment: Development
+2021-06-21 10:53:52.666 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 10:55:42.115 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 10:55:42.171 -03:00 [INF] Hosting environment: Development
+2021-06-21 10:55:42.173 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 11:00:42.506 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:00:42.562 -03:00 [INF] Hosting environment: Development
+2021-06-21 11:00:42.564 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 11:02:22.842 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:02:22.903 -03:00 [INF] Hosting environment: Development
+2021-06-21 11:02:22.905 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 11:05:13.154 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:05:13.221 -03:00 [INF] Hosting environment: Development
+2021-06-21 11:05:13.228 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 11:23:27.116 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:23:27.293 -03:00 [INF] Hosting environment: Development
+2021-06-21 11:23:27.295 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 11:31:29.400 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:31:29.461 -03:00 [INF] Hosting environment: Development
+2021-06-21 11:31:29.462 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 11:43:24.940 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:43:24.979 -03:00 [INF] Hosting environment: Development
+2021-06-21 11:43:24.980 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 11:50:22.914 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:50:22.950 -03:00 [INF] Hosting environment: Development
+2021-06-21 11:50:22.953 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 11:59:35.535 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 11:59:35.577 -03:00 [INF] Hosting environment: Development
+2021-06-21 11:59:35.579 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 12:00:48.794 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 12:00:48.852 -03:00 [INF] Hosting environment: Development
+2021-06-21 12:00:48.855 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 12:03:20.868 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 12:03:20.916 -03:00 [INF] Hosting environment: Development
+2021-06-21 12:03:20.918 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 12:11:06.389 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 12:11:06.428 -03:00 [INF] Hosting environment: Development
+2021-06-21 12:11:06.430 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 12:20:03.603 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 12:20:03.658 -03:00 [INF] Hosting environment: Development
+2021-06-21 12:20:03.660 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 12:20:46.737 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 12:20:46.781 -03:00 [INF] Hosting environment: Development
+2021-06-21 12:20:46.783 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 13:37:20.615 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 13:37:20.696 -03:00 [INF] Hosting environment: Development
+2021-06-21 13:37:20.697 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 13:45:12.361 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 13:45:12.402 -03:00 [INF] Hosting environment: Development
+2021-06-21 13:45:12.403 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 13:47:29.518 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 13:47:29.557 -03:00 [INF] Hosting environment: Development
+2021-06-21 13:47:29.558 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 14:11:12.925 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 14:11:12.982 -03:00 [INF] Hosting environment: Development
+2021-06-21 14:11:12.986 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 16:07:42.427 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 16:07:42.486 -03:00 [INF] Hosting environment: Development
+2021-06-21 16:07:42.487 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 16:10:35.812 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-21 16:10:35.814 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-21 16:10:36.645 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-21 16:10:53.014 -03:00 [VRB] Entrou no metodo Index(post) de Livros
+2021-06-21 16:10:53.014 -03:00 [INF] Entrando no metodo Index(post) de Livros
+2021-06-21 16:10:53.043 -03:00 [VRB] Saiu do metodo Index(post) de Livros
+2021-06-21 16:18:33.626 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 16:18:33.676 -03:00 [INF] Hosting environment: Development
+2021-06-21 16:18:33.678 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-21 16:20:08.658 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-21 16:20:08.660 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-21 16:20:09.925 -03:00 [VRB] Saiu do metodo Index(get) de Livros

@@ -1,0 +1,302 @@
+2021-06-22 13:18:43.647 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-22 13:18:43.679 -03:00 [INF] Hosting environment: Development
+2021-06-22 13:18:43.680 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-22 13:56:57.908 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 13:56:57.910 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 13:56:58.852 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 14:33:34.212 -03:00 [VRB] Entrou no metodo Error(Get) de Livros
+2021-06-22 14:33:34.212 -03:00 [INF] Entrando no metodo Error(Ge) de Livros
+2021-06-22 14:33:34.218 -03:00 [VRB] Saiu do metodo Error(Get) retornando a ViewModel {"RequestId":"00-0970bda0729e6149acf5d79fbad4334d-760dc399aaf7df48-00","Message":"Arquivo não encontrado ou vazio.","ShowRequestId":true,"$type":"ErrorViewModel"}
+2021-06-22 14:33:36.820 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 14:33:36.820 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 14:33:36.844 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 14:33:59.320 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+ ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at lambda_method137(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExtractParameters(Expression query, IParameterValues parameterValues, IDiagnosticsLogger`1 logger, Boolean parameterize, Boolean generateContextAccessors)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at Biblioteca.Controllers.LivrosController.GetFileLinesAsLivros(IEnumerable`1 fileStringList) in C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\Controllers\LivrosController.cs:line 392
+   at Biblioteca.Controllers.LivrosController.ImportarCsv(IFormFile file) in C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\Controllers\LivrosController.cs:line 380
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-22 14:35:03.965 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-22 14:35:04.009 -03:00 [INF] Hosting environment: Development
+2021-06-22 14:35:04.011 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-22 14:35:04.853 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 14:35:04.855 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 14:35:05.509 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 14:35:11.844 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 14:35:11.844 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 14:35:11.868 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 14:35:28.980 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+ ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at lambda_method128(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExtractParameters(Expression query, IParameterValues parameterValues, IDiagnosticsLogger`1 logger, Boolean parameterize, Boolean generateContextAccessors)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at Biblioteca.Controllers.LivrosController.GetFileLinesAsLivros(IEnumerable`1 fileStringList) in C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\Controllers\LivrosController.cs:line 392
+   at Biblioteca.Controllers.LivrosController.ImportarCsv(IFormFile file) in C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\Controllers\LivrosController.cs:line 380
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-22 14:36:00.960 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-22 14:36:00.999 -03:00 [INF] Hosting environment: Development
+2021-06-22 14:36:01.000 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-22 14:36:11.217 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 14:36:11.218 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 14:36:11.737 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 14:36:23.428 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+ ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at lambda_method110(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExtractParameters(Expression query, IParameterValues parameterValues, IDiagnosticsLogger`1 logger, Boolean parameterize, Boolean generateContextAccessors)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at Biblioteca.Controllers.LivrosController.GetFileLinesAsLivros(IEnumerable`1 fileStringList) in C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\Controllers\LivrosController.cs:line 392
+   at Biblioteca.Controllers.LivrosController.ImportarCsv(IFormFile file) in C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\Controllers\LivrosController.cs:line 380
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-22 14:40:04.475 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-22 14:40:04.502 -03:00 [INF] Hosting environment: Development
+2021-06-22 14:40:04.503 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-22 14:40:22.736 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 14:40:22.738 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 14:40:22.764 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 14:40:30.523 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+ ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at lambda_method209(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExtractParameters(Expression query, IParameterValues parameterValues, IDiagnosticsLogger`1 logger, Boolean parameterize, Boolean generateContextAccessors)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at Biblioteca.Controllers.LivrosController.GetFileLinesAsLivros(IEnumerable`1 fileStringList) in C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\Controllers\LivrosController.cs:line 392
+   at Biblioteca.Controllers.LivrosController.ImportarCsv(IFormFile file) in C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\Controllers\LivrosController.cs:line 380
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-22 14:41:25.679 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-22 14:41:25.720 -03:00 [INF] Hosting environment: Development
+2021-06-22 14:41:25.721 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-22 14:45:13.208 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 14:45:13.209 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 14:45:14.016 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 14:47:26.581 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-22 14:47:26.615 -03:00 [INF] Hosting environment: Development
+2021-06-22 14:47:26.616 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-22 14:48:54.615 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 14:48:54.616 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 14:48:55.433 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 14:50:54.960 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-22 14:50:54.992 -03:00 [INF] Hosting environment: Development
+2021-06-22 14:50:54.995 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-22 14:50:58.341 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 14:50:58.343 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 14:50:58.978 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 14:53:06.642 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-22 14:53:06.678 -03:00 [INF] Hosting environment: Development
+2021-06-22 14:53:06.679 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-22 14:53:25.572 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 14:53:25.573 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 14:53:26.764 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 14:55:27.753 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 14:55:27.753 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 14:55:27.759 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 15:26:52.811 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-22 15:26:52.866 -03:00 [INF] Hosting environment: Development
+2021-06-22 15:26:52.868 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-22 15:26:59.995 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 15:26:59.996 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 15:27:00.025 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 15:27:04.795 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 15:27:04.795 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 15:27:04.795 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 15:29:54.598 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 15:29:54.598 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 15:29:54.598 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 15:30:20.852 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-22 15:30:20.880 -03:00 [INF] Hosting environment: Development
+2021-06-22 15:30:20.883 -03:00 [INF] Content root path: C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca
+2021-06-22 15:30:24.172 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 15:30:24.173 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 15:30:24.680 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 15:30:29.462 -03:00 [VRB] Entrou no metodo Delete(get) de Livros
+2021-06-22 15:30:29.462 -03:00 [INF] Entrando no metodo Delete(Get) de Livros
+2021-06-22 15:30:29.706 -03:00 [VRB] Saiu do metodo Delete(get) retornando a pagina com o modelo de livro correto. Modelo = {"Id":9,"Nome":"livro3","Categoria":{"Id":2,"Nome":"Comedia","Ativo":true,"$type":"Categoria"},"CategoriaId":2,"Autor":"Autor3","Ativo":false,"$type":"Livro"}
+2021-06-22 15:30:30.748 -03:00 [VRB] Entrou no metodo Delete(post) de Livros
+2021-06-22 15:30:30.748 -03:00 [INF] Entrando no metodo Delete(post) de Livros
+2021-06-22 15:30:31.007 -03:00 [VRB] Entrou no metodo interno MoveNext de Livros
+2021-06-22 15:30:31.008 -03:00 [INF] Entrando no metodo interno MoveNext de Livros
+2021-06-22 15:30:31.380 -03:00 [VRB] Saiu do metodo interno MoveNext de Livros
+2021-06-22 15:30:32.756 -03:00 [VRB] Saiu do metodo Delete(post) deletando o livro do banco corretamente.
+2021-06-22 15:30:32.761 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 15:30:32.761 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 15:30:32.762 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 15:30:34.177 -03:00 [VRB] Entrou no metodo Delete(get) de Livros
+2021-06-22 15:30:34.177 -03:00 [INF] Entrando no metodo Delete(Get) de Livros
+2021-06-22 15:30:34.360 -03:00 [VRB] Saiu do metodo Delete(get) retornando a pagina com o modelo de livro correto. Modelo = {"Id":8,"Nome":"livro2","Categoria":{"Id":4,"Nome":"Acao","Ativo":true,"$type":"Categoria"},"CategoriaId":4,"Autor":"Autor2","Ativo":false,"$type":"Livro"}
+2021-06-22 15:30:35.189 -03:00 [VRB] Entrou no metodo Delete(post) de Livros
+2021-06-22 15:30:35.189 -03:00 [INF] Entrando no metodo Delete(post) de Livros
+2021-06-22 15:30:35.368 -03:00 [VRB] Entrou no metodo interno MoveNext de Livros
+2021-06-22 15:30:35.369 -03:00 [INF] Entrando no metodo interno MoveNext de Livros
+2021-06-22 15:30:35.734 -03:00 [VRB] Saiu do metodo interno MoveNext de Livros
+2021-06-22 15:30:36.506 -03:00 [VRB] Saiu do metodo Delete(post) deletando o livro do banco corretamente.
+2021-06-22 15:30:36.510 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 15:30:36.511 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 15:30:36.511 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 15:30:38.490 -03:00 [VRB] Entrou no metodo Delete(get) de Livros
+2021-06-22 15:30:38.490 -03:00 [INF] Entrando no metodo Delete(Get) de Livros
+2021-06-22 15:30:38.666 -03:00 [VRB] Saiu do metodo Delete(get) retornando a pagina com o modelo de livro correto. Modelo = {"Id":7,"Nome":"livro1","Categoria":{"Id":3,"Nome":"Humor","Ativo":true,"$type":"Categoria"},"CategoriaId":3,"Autor":"Autor1","Ativo":false,"$type":"Livro"}
+2021-06-22 15:30:39.712 -03:00 [VRB] Entrou no metodo Delete(post) de Livros
+2021-06-22 15:30:39.713 -03:00 [INF] Entrando no metodo Delete(post) de Livros
+2021-06-22 15:30:39.893 -03:00 [VRB] Entrou no metodo interno MoveNext de Livros
+2021-06-22 15:30:39.893 -03:00 [INF] Entrando no metodo interno MoveNext de Livros
+2021-06-22 15:30:40.248 -03:00 [VRB] Saiu do metodo interno MoveNext de Livros
+2021-06-22 15:30:41.017 -03:00 [VRB] Saiu do metodo Delete(post) deletando o livro do banco corretamente.
+2021-06-22 15:30:41.021 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 15:30:41.021 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 15:30:41.022 -03:00 [VRB] Saiu do metodo Index(get) de Livros
+2021-06-22 15:39:35.633 -03:00 [VRB] Entrou no metodo Index(get) de Livros
+2021-06-22 15:39:35.633 -03:00 [INF] Entrando no metodo Index(Get) de Livros
+2021-06-22 15:39:35.633 -03:00 [VRB] Saiu do metodo Index(get) de Livros
