@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mW/HtSALtSVEizrOCd2oPmydxdiKeR87WaBrbG4cH4JbeeoW7LlZL8VZOGR1n2xpL40s6zblBwzRobv2vCfHIg==",
+  "dgSpecHash": "EvF5uwOAtWdkZeXU9lePgP7BUymVqHfyCqGcvX98pFqmi/pBLp6O/Frzg+Ihs939j/qkr55n1FssMRrxDk+OCA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andrew\\Source\\Repos\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
   "expectedPackageFiles": [
@@ -159,7 +159,8 @@
     "C:\\Users\\Andrew\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Andrew\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Andrew\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Andrew\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []
 }
