@@ -28,6 +28,11 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+- task: VisualStudioTestPlatformInstaller@1
+  inputs:
+    packageFeedSelector: 'nugetOrg'
+    versionSelector: 'latestStable'
+
 - task: VSTest@2
   inputs:
     testSelector: 'testAssemblies'
@@ -36,7 +41,7 @@ steps:
       !**\*TestAdapter.dll
       !**\obj\**
     searchFolder: '$(System.DefaultWorkingDirectory)'
-    vsTestVersion: '16.0'
+    vsTestVersion: 'toolsInstaller'
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
