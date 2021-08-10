@@ -32,12 +32,8 @@ steps:
   inputs:
     testSelector: 'testAssemblies'
     testAssemblyVer2: |
-      **\bin\$(BuildConfiguration)\**\*test*.dll
+      **\*testhost*.dll
+      !**\*TestAdapter.dll
       !**\obj\**
-      !**\xunit.runner.visualstudio.testadapter.dll
-      !**\xunit.runner.visualstudio.dotnetcore.testadapter.dll
     searchFolder: '$(System.DefaultWorkingDirectory)'
-    vsTestVersion: 'toolsInstaller'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
 
