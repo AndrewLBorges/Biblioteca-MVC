@@ -20,13 +20,34 @@ namespace Biblioteca.Controllers.Api
         {
             _context = context;
         }
-        
+
         [HttpGet]
+        [Route("get")]
         public IEnumerable<Emprestimo> Get()
         {
             var emprestimos = _context.Emprestimos.Include(e => e.Cliente).Include(e => e.Livro).AsEnumerable();
 
             return emprestimos;
         }
+
+        [HttpGet]
+        [Route("listaClientes")]
+        public IEnumerable<string> GetListaDeClientesComEmprestimo()
+        {
+            var emprestimos = _context.Emprestimos.Select(e => e.Cliente.Nome).AsEnumerable();
+
+            return emprestimos;
+        }
+
+        [HttpGet]
+        [Route("listaLivros")]
+        public IEnumerable<Livro> GetListaDeLivrosEmEmprestimo()
+        {
+            var emprestimos = _context.Emprestimos.Select(e => e.Livro).AsEnumerable();
+
+            return emprestimos;
+        }
+
+
     }
 }

@@ -8,16 +8,20 @@ using Microsoft.EntityFrameworkCore;
 using Biblioteca.Data;
 using Biblioteca.Models;
 using System.Diagnostics;
+using Biblioteca.Loggers;
+using Microsoft.Extensions.Configuration;
 
 namespace Biblioteca.Controllers
 {
     public class CategoriasController : Controller
     {
         private readonly BibliotecaContext _context;
+        private readonly IModelLogger<Categoria> _categoriaLogger;
 
-        public CategoriasController(BibliotecaContext context)
+        public CategoriasController(BibliotecaContext context, IConfiguration configuration)
         {
             _context = context;
+            _categoriaLogger = new CategoriaLogger(configuration);
         }
 
         // GET: Categorias
@@ -68,6 +72,9 @@ namespace Biblioteca.Controllers
             {
                 _context.Add(categoria);
                 await _context.SaveChangesAsync();
+
+                _categoriaLogger.LogCreation(categoria);
+
                 return RedirectToAction(nameof(Index));
             }
             return View(categoria);
@@ -107,6 +114,8 @@ namespace Biblioteca.Controllers
                 {
                     _context.Update(categoria);
                     await _context.SaveChangesAsync();
+
+                    _categoriaLogger.LogUpdate(GetCategoriaOriginalPorId(id), categoria);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -122,6 +131,15 @@ namespace Biblioteca.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(categoria);
+        }
+
+        private Categoria GetCategoriaOriginalPorId(int id)
+        {
+            var categoriaOriginal = _context.Categorias.FirstOrDefault(l => l.Id == id);
+            _context.Entry(categoriaOriginal).State = EntityState.Detached;
+
+            return categoriaOriginal;
+
         }
 
         // GET: Categorias/Delete/5
@@ -154,6 +172,9 @@ namespace Biblioteca.Controllers
             var categoria = await _context.Categorias.FindAsync(id);
             _context.Categorias.Remove(categoria);
             await _context.SaveChangesAsync();
+
+            _categoriaLogger.LogDelete(categoria.Nome);
+
             return RedirectToAction(nameof(Index));
         }
 
