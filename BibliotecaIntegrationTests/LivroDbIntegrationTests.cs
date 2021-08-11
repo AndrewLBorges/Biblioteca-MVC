@@ -61,7 +61,7 @@ namespace BibliotecaIntegrationTests
             Assert.Equal("CategoriaTeste", primeiroLivro.Categoria.Nome);
             Assert.False(primeiroLivro.Categoria.Ativo);
             Assert.Equal("AutorTeste", primeiroLivro.Autor);
-            Assert.False(!primeiroLivro.Ativo);
+            Assert.False(primeiroLivro.Ativo);
         }
 
         [Fact]
