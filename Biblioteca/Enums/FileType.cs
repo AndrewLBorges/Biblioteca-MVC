@@ -10,4 +10,17 @@ namespace Biblioteca.Enums
         CSV,
         XML
     }
+
+    public static class FileTypeExtensions
+    {
+        public static string FastToString(this FileType types)
+        {
+            return types switch
+            {
+                FileType.CSV => nameof(FileType.CSV),
+                FileType.XML => nameof(FileType.XML),
+                _ => throw new ArgumentOutOfRangeException(nameof(types), types, null)
+            };
+        }
+    }
 }
