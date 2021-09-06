@@ -36,8 +36,8 @@ namespace Biblioteca.Controllers
 
             ViewBag.FileType = new SelectList(new List<SelectListItem>
             {
-                new SelectListItem { Text = "CSV", Value = ((int)FileType.CSV).ToString()},
-                new SelectListItem { Text = "XML", Value = ((int)FileType.XML).ToString()}
+                new SelectListItem { Text = "CSV", Value = FileType.CSV.ToString("D")},
+                new SelectListItem { Text = "XML", Value = FileType.XML.ToString("D")}
             }, "Value", "Text");
 
             return View(await bibliotecaContext.ToListAsync());
