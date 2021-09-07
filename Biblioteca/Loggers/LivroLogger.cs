@@ -30,7 +30,7 @@ namespace Biblioteca.Loggers
                 { "CategoriaAlterada", modeloAtual.Categoria.Nome },
                 { "AtivoAlterado", modeloAtual.Ativo },
                 { "DataAlteracao", DateTime.Now },
-                { "Acao", Acao.INSERT.ToString() }
+                { "Acao", Acao.INSERT.FastToString() }
             };
 
             InsertLogLivro(document);
@@ -42,7 +42,7 @@ namespace Biblioteca.Loggers
             {
                 { "NomeOriginal", nomeOriginal },
                 { "DataAlteracao", DateTime.Now },
-                { "Acao", Acao.DELETE.ToString() }
+                { "Acao", Acao.DELETE.FastToString() }
             };
 
             InsertLogLivro(document);
@@ -61,7 +61,7 @@ namespace Biblioteca.Loggers
                 { "AtivoOriginal", modeloOriginal.Ativo },
                 { "AtivoAlterado", modeloAtual.Ativo },
                 { "DataAlteracao", DateTime.Now },
-                { "Acao", Acao.UPDATE.ToString() }
+                { "Acao", Acao.UPDATE.FastToString() }
             };
 
             InsertLogLivro(document);
