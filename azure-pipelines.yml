@@ -11,6 +11,7 @@ pool:
 
 variables:
   solution: '**/*.sln'
+  integrationTestProjectPath: 'src/BibliotecaIntegrationTests/BibliotecaIntegrationTests.csproj'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
@@ -21,10 +22,16 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: '$(integrationTestProjectPath)'
+    arguments: '--configuration $(buildConfiguration) --output "$(build.artifactStagingDirectory)/Integration'
+
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
-    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactStagingDirectory)"'
+    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactStagingDirectory)/App"'
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
@@ -34,6 +41,12 @@ steps:
     configuration: '$(buildConfiguration)'
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'biblioteca'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/App'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/Integration'
+    ArtifactName: 'IntegrationTests'
     publishLocation: 'Container'
