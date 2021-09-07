@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ReyyT066uTL3AqrVg0BYrwP4Aaa33oraaFDQv6jf8jl0b2EdXx0YPag+BlJJcaj4EPfnl0MOhB31dV7hdA+LPg==",
+  "dgSpecHash": "aLo3VsAUwtmU3V+nqqEtpNnv/GZfw3n7YdigUiZZuHjhlXiG2LMyLe2D/PIa6cEj+lYFjcr2L45knZtDrzwkQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrew\\source\\repos\\Biblioteca\\BibliotecaIntegrationTests\\BibliotecaIntegrationTests.csproj",
+  "projectFilePath": "C:\\Users\\Andrew\\Source\\Repos\\Biblioteca\\BibliotecaIntegrationTests\\BibliotecaIntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrew\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\coverlet.collector\\3.0.3\\coverlet.collector.3.0.3.nupkg.sha512",
