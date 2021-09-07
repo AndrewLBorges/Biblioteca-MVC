@@ -50,3 +50,10 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)/Integration'
     ArtifactName: 'IntegrationTests'
     publishLocation: 'Container'
+
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'Tests/LoadTests'
+    ArtifactName: 'PerformanceTests'
+    publishLocation: 'Container'
