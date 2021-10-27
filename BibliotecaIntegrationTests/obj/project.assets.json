@@ -1377,7 +1377,8 @@
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.11.1": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
+          "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
       },
       "Microsoft.VisualStudio.Web.CodeGeneration/5.0.2": {
@@ -11721,6 +11722,7 @@
       "Microsoft.AspNetCore.Mvc.Testing >= 5.0.7",
       "Microsoft.EntityFrameworkCore.InMemory >= 5.0.7",
       "Microsoft.NET.Test.Sdk >= 16.10.0",
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.11.1",
       "Moq >= 4.16.1",
       "coverlet.collector >= 3.0.3",
       "xunit >= 2.4.1",
@@ -11787,6 +11789,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.10.0, )"
+          },
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "target": "Package",
+            "version": "[1.11.1, )"
           },
           "Moq": {
             "target": "Package",
