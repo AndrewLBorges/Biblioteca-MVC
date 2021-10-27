@@ -5,5 +5,6 @@
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)mongodb.driver.core\2.12.4\build\MongoDB.Driver.Core.targets" Condition="Exists('$(NuGetPackageRoot)mongodb.driver.core\2.12.4\build\MongoDB.Driver.Core.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.11.1\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.11.1\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets')" />
   </ImportGroup>
 </Project>

@@ -17,5 +17,6 @@
     <_SelectedScaffolderID>ApiControllerWithContextScaffolder</_SelectedScaffolderID>
     <_SelectedScaffolderCategoryPath>root/Common</_SelectedScaffolderCategoryPath>
     <NameOfLastUsedPublishProfile>C:\Users\Andrew\Desktop\C# .NET projects\Biblioteca\Biblioteca\Properties\PublishProfiles\WebBiblioteca - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <ActiveDebugProfile>Docker</ActiveDebugProfile>
   </PropertyGroup>
 </Project>

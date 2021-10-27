@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FH3K0XojTdqBZ1sUrrGTnBELsny8VwAtG9mC1dtm1hTtwpS4K9D0UQZcu6+rnp+p+bwylewOg5ciO1q+x/XIGA==",
+  "dgSpecHash": "b07G36bT+bVlMquuY90F1LNU8OdXNEYkmbEHDfTLRRU9GxlRNzLAMaY6xXjHfAdZmttyPDA3vEf9PWddrZmMZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrew\\source\\repos\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
+  "projectFilePath": "C:\\Users\\Andrew\\Source\\Repos\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrew\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -56,6 +56,7 @@
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\5.0.2\\microsoft.visualstudio.web.codegeneration.5.0.2.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\5.0.2\\microsoft.visualstudio.web.codegeneration.contracts.5.0.2.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\5.0.2\\microsoft.visualstudio.web.codegeneration.core.5.0.2.nupkg.sha512",

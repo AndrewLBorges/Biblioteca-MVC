@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ReyyT066uTL3AqrVg0BYrwP4Aaa33oraaFDQv6jf8jl0b2EdXx0YPag+BlJJcaj4EPfnl0MOhB31dV7hdA+LPg==",
+  "dgSpecHash": "ux6z1NqRbMdDwCRI3ByE+ouxdV4Y6mYWd/sdQCUtAv47B4B3CcdzmGW1+HBm4909eLPbXSzJijHeio96dqQ4gQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrew\\source\\repos\\Biblioteca\\BibliotecaIntegrationTests\\BibliotecaIntegrationTests.csproj",
+  "projectFilePath": "C:\\Users\\Andrew\\Source\\Repos\\Biblioteca\\BibliotecaIntegrationTests\\BibliotecaIntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrew\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\coverlet.collector\\3.0.3\\coverlet.collector.3.0.3.nupkg.sha512",
@@ -75,6 +75,7 @@
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.10.0\\microsoft.testplatform.objectmodel.16.10.0.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.testplatform.testhost\\16.10.0\\microsoft.testplatform.testhost.16.10.0.nupkg.sha512",
+    "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\5.0.2\\microsoft.visualstudio.web.codegeneration.5.0.2.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\5.0.2\\microsoft.visualstudio.web.codegeneration.contracts.5.0.2.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\5.0.2\\microsoft.visualstudio.web.codegeneration.core.5.0.2.nupkg.sha512",
