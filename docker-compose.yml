@@ -5,4 +5,4 @@ services:
     image: ${DOCKER_REGISTRY-}biblioteca
     build:
       context: .
-      dockerfile: Biblioteca/Dockerfile
+      dockerfile: Biblioteca\Dockerfile

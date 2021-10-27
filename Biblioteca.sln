@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblioteca", "Biblioteca\Bi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaIntegrationTests", "BibliotecaIntegrationTests\BibliotecaIntegrationTests.csproj", "{0D885059-310F-4C2D-9CA3-5E13F15B89F1}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EC0DF8FB-EAEC-42C4-AA71-3C3FA06569B1}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CECB4A22-205E-42B7-B290-612445ADA7BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{0D885059-310F-4C2D-9CA3-5E13F15B89F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D885059-310F-4C2D-9CA3-5E13F15B89F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D885059-310F-4C2D-9CA3-5E13F15B89F1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EC0DF8FB-EAEC-42C4-AA71-3C3FA06569B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC0DF8FB-EAEC-42C4-AA71-3C3FA06569B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC0DF8FB-EAEC-42C4-AA71-3C3FA06569B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC0DF8FB-EAEC-42C4-AA71-3C3FA06569B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CECB4A22-205E-42B7-B290-612445ADA7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECB4A22-205E-42B7-B290-612445ADA7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECB4A22-205E-42B7-B290-612445ADA7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECB4A22-205E-42B7-B290-612445ADA7BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
