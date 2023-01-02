@@ -59,10 +59,10 @@ resource "azurerm_mssql_firewall_rule" "rule" {
 }
 
 resource "azurerm_mssql_database" "biblio" {
-  name           = "biblioDB"
-  server_id      = azurerm_mssql_server.biblio.id
-  collation      = "SQL_Latin1_General_CP1_CI_AS"
-  license_type   = "LicenseIncluded"
-  max_size_gb    = 2
-  sku_name       = "Basic"
+  name         = "biblioDB"
+  server_id    = azurerm_mssql_server.biblio.id
+  collation    = "SQL_Latin1_General_CP1_CI_AS"
+  license_type = "LicenseIncluded"
+  max_size_gb  = 2
+  sku_name     = "Basic"
 }

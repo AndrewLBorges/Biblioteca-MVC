@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b07G36bT+bVlMquuY90F1LNU8OdXNEYkmbEHDfTLRRU9GxlRNzLAMaY6xXjHfAdZmttyPDA3vEf9PWddrZmMZA==",
+  "dgSpecHash": "sBTARYm8plppR59d3BtBD9FT5bMrQ3qKuTkBiQteX0b8j3OC/lmoVkkbdtWBGioWP0+XmsO8sTtLXGoqWv8TKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrew\\Source\\Repos\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
+  "projectFilePath": "C:\\Users\\Andrew\\source\\repos\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrew\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
